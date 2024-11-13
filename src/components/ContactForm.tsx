@@ -13,7 +13,7 @@ export function ContactForm() {
     
     try {
       // Replace YOUR_FORMSPREE_ENDPOINT with your FormSpree form ID
-      const response = await fetch('https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT', {
+      const response = await fetch('https://formspree.io/f/myzyjbqk', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
